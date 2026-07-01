@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Navbar(){
     return(
         <>
-        <div className="flex align-middle justify-around mt-4 mr-5 mb-7 sm:flex-col sm:text-center lg:flex-row md:flex-row">
+        <div className="flex flex-col align-middle text-center justify-around mt-4 mr-5 mb-7 sm:flex-col sm:text-center lg:flex-row md:flex-row">
             <h1 className="font-serif font-bold text-3xl ml-3">WebCraft</h1>
 
             <div className="font-serif font-semibold text-xl mt-4 sm:align-middle flex justify-around">
