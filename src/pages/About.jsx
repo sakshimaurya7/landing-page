@@ -4,12 +4,10 @@ function About(){
         
         <div className="bg-gradient-to-tr from-pink-200 to-blue-300 text-center py-24">
             <h1 className="font-serif font-extrabold text-5xl m-4 text-center">Our Journey: Crafting<br /> Digital Excellence</h1>
-            <p className=" text-xl m-4">We are a team of passionate designers and developers dedicated to <br/> transforming ideas into functional, beautiful digital realities   
-            
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores culpa maiores blanditiis sapiente possimus. Corporis tempora modi mollitia vitae quaerat voluptatum ut sed, fugiat consequuntur blanditiis minus aliquam numquam labore officiis quibusdam officia quia voluptatem, porro dicta quos. Dolorem quos ullam et rerum sint aspernatur inventore ipsa suscipit esse commodi.</p>
+            <p className=" text-xl m-4">We are a team of passionate designers and developers dedicated to <br/> transforming ideas into functional, beautiful digital realities.</p>
         </div>
-        <div className="flex justify-between my-7 sm:flex-col md:flex-col lg:flex-row">
-            <div className="w-full h-full m-8 shadow-lg shadow-black rounded-lg md:w-full sm:min-w-full lg:w-1/2">
+        <div className="flex flex-col mx-auto justify-between my-7 sm:flex-col md:flex-col lg:flex-row">
+            <div className="w-full h-full my-8 mx-auto shadow-lg shadow-black rounded-lg md:mx-auto sm:mx-auto">
                 <img src="./src/assets/aboutpic.png" className="rounded-lg"/>
             </div>
 
@@ -28,22 +26,37 @@ function About(){
 
         <div>
             <h1 className="text-4xl font-bold font-serif text-center">Core Values</h1>
-            <div className="flex justify-around m-3 gap-5">
+            <div className="flex flex-col justify-around m-3 gap-5 sm:flex-col md:flex-col lg:flex-row">
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <h2 className="text-xl font-bold">Quality</h2>
-                    <p>Uncompromising standards in every line of code and design.</p>
+                    <div className="flex justify-between">
+                        <img src="./src/assets/q1.png" alt="Quality" className="w-1/6 h-auto my-auto" />
+                        <span>
+                            <h2 className="text-2xl font-bold">Quality</h2>
+                            <p className="font-semibold p-4">Uncompromising standards in every line of code and design.</p>
+                        </span>
+                    </div>
                     <button>Learn More &rarr;</button>
                 </section>
 
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <h2 className="text-xl font-bold">Innovation</h2>
-                    <p>Always pushing the boundaries of what is possible with current tech.</p>
+                    <div>
+                        <img src="./src/assets/inno.jpg" alt="Innovation" />
+                        <span>
+                            <h2 className="text-xl font-bold">Innovation</h2>
+                            <p>Always pushing the boundaries of what is possible with current tech.</p>
+                        </span>
+                    </div>
                     <button>Learn More &rarr;</button>
                 </section>
 
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <h2 className="text-xl font-bold">Integrity</h2>
-                    <p>Building lasting partnerships through transparency and trust.</p>
+                    <div>
+                        <img src="./src/assets/integrity.jpg" alt="Integrity" />
+                        <span>
+                            <h2 className="text-xl font-bold">Integrity</h2>
+                            <p>Building lasting partnerships through transparency and trust.</p>
+                        </span>
+                    </div>
                     <button>Learn More &rarr;</button>
                 </section>
             </div>
