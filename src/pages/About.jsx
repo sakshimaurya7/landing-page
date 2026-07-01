@@ -29,18 +29,18 @@ function About(){
             <div className="flex flex-col justify-around m-3 gap-5 sm:flex-col md:flex-col lg:flex-row">
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
                     <div className="flex justify-between">
-                        <img src="./src/assets/q1.png" alt="Quality" className="w-1/6 h-auto my-auto" />
+                        <img src="./src/assets/q1.png" alt="Quality" className="w-16 h-auto my-auto" />
                         <span>
                             <h2 className="text-2xl font-bold">Quality</h2>
-                            <p className="font-semibold p-4">Uncompromising standards in every line of code and design.</p>
+                            <p>Uncompromising standards in every line of code and design.</p>
                         </span>
                     </div>
                     <button>Learn More &rarr;</button>
                 </section>
 
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <div>
-                        <img src="./src/assets/inno.jpg" alt="Innovation" />
+                    <div className="flex justify-between">
+                        <img src="./src/assets/inno.jpg" alt="Innovation" className="w-1/6 h-auto my-auto"/>
                         <span>
                             <h2 className="text-xl font-bold">Innovation</h2>
                             <p>Always pushing the boundaries of what is possible with current tech.</p>
@@ -50,8 +50,8 @@ function About(){
                 </section>
 
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <div>
-                        <img src="./src/assets/integrity.jpg" alt="Integrity" />
+                    <div className="flex justify-between">
+                        <img src="./src/assets/integrity.jpg" alt="Integrity" className="w-1/6 h-auto my-auto"/>
                         <span>
                             <h2 className="text-xl font-bold">Integrity</h2>
                             <p>Building lasting partnerships through transparency and trust.</p>
