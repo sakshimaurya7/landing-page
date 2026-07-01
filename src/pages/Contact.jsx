@@ -2,8 +2,8 @@ function Contact(){
     return(
         <>
         
-        <div className="flex justify-around sm:flex-col md:flex-row lg:flex-row">
-            <div className="w-1/2 m-4 p-4 sm:w-full lg:w-1/2 md:w-1/2">
+        <div className="flex flex-col justify-around sm:flex-col md:flex-row lg:flex-row">
+            <div className="w-full m-4 p-4 sm:w-full lg:w-1/2 md:w-1/2">
                 <b className="bg-blue-100 text-blue-600 p-3 my-4 hover:bg-blue-600 hover:text-white font-bold rounded-md">CONTACT US</b>
                 <h1 className="my-4 font-extrabold text-4xl font-serif">Let's Work Together</h1>
                 <p className="mr-4 text-md mb-3">Have a project in mind or need more information? We'd love to hear from you. Fill out the form or use the conatct information below to reach us.</p>
@@ -42,8 +42,8 @@ function Contact(){
                 
             </div>
 
-            <div className="mb-4 sm:w-min-w-full">
-            <div className="w-1/2 m-4 border-gray-450 border-2 rounded-lg p-4 my-auto sm:min-w-full md:w-full lg:w-full">
+            <div className=" my-4 mx-5 sm:min-w-full">
+            <div className="w-full border-gray-450 border-2 rounded-lg p-4 my-auto sm:min-w-full md:w-full lg:w-full">
                 <form>
                     <h2 className="font-bold text-2xl font-serif text-center">Send Us a Message</h2>
                     <label for="name" className="my-4 font-semibold text-xl">Full Name</label><br />
@@ -66,12 +66,12 @@ function Contact(){
         </div>
         
         <div>
-            <h1 className="text-center font-bold text-3xl m-5">Visit Us</h1>
-            <div className="flex flex-col justify-around lg:flex-row md:grid md:grid-cols-2 gap-4">
-                <img src="./src/assets/v1.avif" className="w-1/5 h-auto sm:w-full m-4"/>
-                <img src="./src/assets/v2.avif" className="w-1/5 h-auto sm:w-full m-4 md:mr-6"/>
-                <img src="./src/assets/v1.avif" className="w-1/5 h-auto sm:w-full m-4"/>
-                <img src="./src/assets/v2.avif" className="w-1/5 h-auto sm:w-full m-4"/>
+            <h1 className="text-center font-bold text-3xl m-5 rounded-lg">Visit Us</h1>
+            <div className="flex flex-col justify-around lg:flex-row md:grid md:grid-cols-2 gap-4 sm:flex-col">
+                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-full lg:w-full md:w-full m-4"/>
+                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-full m-4 md:mr-6 lg:w-full md:w-full"/>
+                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-full m-4 lg:w-full md:w-full"/>
+                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-full m-4 lg:w-full md:w-full"/>
 
             </div>
         </div>

@@ -10,7 +10,7 @@ function Footer(){
                     We build modern, responsive, and high-performing <br /> websites that help your business grow.
                 </p>
             </section>
-            <div className="flex justify-around">
+            <div className="flex flex-col justify-around sm:flex-col md:flex-col lg:flex-row text-center">
                 <section>
                     <h2 className="font-bold text-lg">Quick Links</h2>
                     <Link to="/" className="hover:text-blue-300 focus:text-black">Home</Link><br />
