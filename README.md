@@ -1,6 +1,6 @@
-# React + Vite
+# React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is a Landing Page to practice react router
 
 Currently, two official plugins are available:
 
