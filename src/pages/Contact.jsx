@@ -42,8 +42,8 @@ function Contact(){
                 
             </div>
 
-            <div className=" my-4 mx-5 sm:min-w-full">
-            <div className="w-full border-gray-450 border-2 rounded-lg p-4 my-auto sm:min-w-full md:w-full lg:w-full">
+            <div className="mx-5">
+            <div className="w-full m-4 border-gray-450 border-2 rounded-lg p-4 my-auto sm:my-auto sm:min-w-full md:w-full lg:w-full">
                 <form>
                     <h2 className="font-bold text-2xl font-serif text-center">Send Us a Message</h2>
                     <label for="name" className="my-4 font-semibold text-xl">Full Name</label><br />
