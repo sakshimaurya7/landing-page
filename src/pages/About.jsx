@@ -4,7 +4,9 @@ function About(){
         
         <div className="bg-gradient-to-tr from-pink-200 to-blue-300 text-center py-24">
             <h1 className="font-serif font-extrabold text-5xl m-4 text-center">Our Journey: Crafting<br /> Digital Excellence</h1>
-            <p className=" text-xl m-4">We are a team of passionate designers and developers dedicated to <br/> transforming ideas into functional, beautiful digital realities.</p>
+            <p className=" text-xl m-4">We are a team of passionate designers and developers dedicated to <br/> transforming ideas into functional, beautiful digital realities   
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores culpa maiores blanditiis sapiente possimus. Corporis tempora modi mollitia vitae quaerat voluptatum ut sed, fugiat consequuntur blanditiis minus aliquam numquam labore officiis quibusdam officia quia voluptatem, porro dicta quos. Dolorem quos ullam et rerum sint aspernatur inventore ipsa suscipit esse commodi.</p>
         </div>
         <div className="flex justify-between my-7 sm:flex-col md:flex-col lg:flex-row">
             <div className="w-full h-full m-8 shadow-lg shadow-black rounded-lg md:w-full sm:min-w-full lg:w-1/2">
