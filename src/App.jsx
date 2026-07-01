@@ -7,17 +7,16 @@ import Contact from "./pages/Contact"
 import Footer from "./pages/Footer"
 import Layout from "./Layout"
 
-
 function App() {
 
   return (<>
   
    <Routes>
     <Route path="/" element={<Layout />} >
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Route>
-    
    </Routes>
   </>
     
