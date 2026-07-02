@@ -77,9 +77,9 @@ function Contact(){
         <div className="flex flex-col items-center ">
             <b className="bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white font-bold text-xl px-4 py-2 rounded-md m-3">FAQ</b>
             <h1 className="font-bold text-3xl font-serif">Frequently Asked Questions</h1>
-            <p className="border-2 border-gray-300 w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">How long does it take to complete a project?  <span className="text-xl align-middle">+</span></p>
-            <p className="border-2 border-gray-300 w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">What services do you offer? <span className="text-xl">+</span></p>
-            <p className="border-2 border-gray-300 w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">How can I get started? <span className="text-xl">+</span></p>
+            <p className="border-2 border-gray-300 w-2/3 lg:w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">How long does it take to complete a project?  <span className="text-xl align-middle">+</span></p>
+            <p className="border-2 border-gray-300 w-2/3 lg:w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">What services do you offer? <span className="text-xl">+</span></p>
+            <p className="border-2 border-gray-300 w-2/3 lg:w-1/2 p-3 rounded-md m-2 text-gray-700 font-bold flex justify-between">How can I get started? <span className="text-xl">+</span></p>
         </div>
         </>
     )
