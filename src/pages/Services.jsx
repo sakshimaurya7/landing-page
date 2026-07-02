@@ -21,7 +21,7 @@ const Services = () => {
       <h1 className='font-bold text-5xl text-center my-4'>Our Services</h1>
 
       <div className='grid grid-cols-3 gap-5'>
-        <section className='flex justify-around '>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
@@ -32,7 +32,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className='flex justify-around'>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
@@ -43,7 +43,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
@@ -52,9 +52,9 @@ const Services = () => {
             <p className='text-slate-800 text-lg my-2'>We develop high-performance mobile apps for iOS and Android that users love.</p>
             <p className='text-blue-600 mt-2 font-bold text-lg'>Learn More &rarr;</p>
           </div>
-        </section>
+        </section> 
 
-        <section>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
@@ -65,7 +65,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
@@ -76,7 +76,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section>
+        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
           <span>
             <img src="" alt="" />
           </span>
