@@ -73,6 +73,14 @@ function Contact(){
                 <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-full m-4 lg:w-full md:w-full rounded-lg"/>
             </div>
         </div>
+
+        <div className="flex flex-col items-center">
+            <b className="bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white font-bold text-xl px-4 py-3">FAQ</b>
+            <h1 className="font-bold text-3xl font-serif">Frequently Asked Questions</h1>
+            <p>How long does it take to complete a project?  <span>+</span></p>
+            <p>What services do you offer? <span>+</span></p>
+            <p>How can I get started? <span>+</span></p>
+        </div>
         </>
     )
 }
