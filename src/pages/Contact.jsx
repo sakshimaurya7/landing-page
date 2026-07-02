@@ -44,7 +44,7 @@ function Contact(){
             </div>
 
             <div className="mr-14 w-full mt-4 lg:w-1/2">
-                <form className="w-full m-4 border-gray-450 border-2 rounded-lg p-6 my-auto sm:min-w-full md:w-full lg:w-2/3">
+                <form className="w-full m-4 border-gray-450 border-2 rounded-lg p-6 my-auto sm:w-full sm:mx-2 md:w-full lg:w-2/3">
                     <h2 className="font-bold text-2xl font-serif text-center">Send Us a Message</h2>
                     <label for="name" className="my-4 font-semibold text-xl">Full Name</label><br />
                     <input type="text" placeholder="Enter your full name" name="name" id="name" className="border-2 border-gray-450 transition-colors duration-100 focus:outline-none focus:border-blue-500 w-full p-2"/><br /><br />
@@ -66,11 +66,11 @@ function Contact(){
         
         <div>
             <h1 className="text-center font-bold text-3xl m-5 rounded-lg">Visit Us</h1>
-            <div className="flex flex-col justify-around md:mx-auto sm:flex-col lg:flex-row">
-                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-full lg:w-full md:w-full m-4 rounded-lg"/>
-                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-full m-4 md:mr-6 lg:w-full md:w-full rounded-lg"/>
-                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-full m-4 lg:w-full md:w-full rounded-lg"/>
-                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-full m-4 lg:w-full md:w-full rounded-lg"/>
+            <div className="flex flex-col justify-around gap-4 md:mx-auto md:flex-row sm:flex-col lg:flex-row">
+                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-2/3 sm:mx-auto lg:w-full md:w-full rounded-lg"/>
+                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-2/3 sm:mx-auto lg:w-full md:w-full rounded-lg"/>
+                <img src="./src/assets/v1.avif" className="w-full h-auto sm:w-2/3 sm:mx-auto lg:w-full md:w-full rounded-lg"/>
+                <img src="./src/assets/v2.avif" className="w-full h-auto sm:w-2/3 sm:mx-auto lg:w-full md:w-full rounded-lg"/>
             </div>
         </div>
 
