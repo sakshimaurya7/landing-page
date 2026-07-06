@@ -50,7 +50,7 @@ function About(){
                 </section>
 
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
-                    <div className="flex justify-between">
+                    <div className="flex justify-between ">
                         <img src="./src/assets/integrity.jpg" alt="Integrity" className="w-1/6 h-auto my-auto"/>
                         <span>
                             <h2 className="text-xl font-bold">Integrity</h2>
