@@ -10,8 +10,8 @@ function Navbar(){
             <div className="font-serif font-semibold text-xl mt-4 sm:align-middle flex justify-around">
                 <Link to = "/" className="mx-6 hover:text-blue-600 focus:text-indigo-300 active:text-2xl">Home</Link>
                 <Link to = "/about" className="mx-6 hover:text-blue-600 focus:text-indigo-300 active:text-2xl">About</Link>
-                <Link to = "/contact" className="mx-6 hover:text-blue-600 focus:text-indig0-300 active:text-2xl">Contact</Link>
-                <Link to = "/services" className="mx-6 hover:text-blue-600 focus:text-indig0-300 active:text-2xl">Services</Link>
+                <Link to = "/contact" className="mx-6 hover:text-blue-600 focus:text-indigo-300 active:text-2xl">Contact</Link>
+                <Link to = "/services" className="mx-6 hover:text-blue-600 focus:text-indigo-300 active:text-2xl">Services</Link>
             </div>
 
             <div className="font-semibold font-serif mt-4">
