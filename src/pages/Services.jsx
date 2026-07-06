@@ -3,10 +3,10 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-    <div className='flex justify-around items-center bg-gradient-to-r from-slate-100 to-blue-200'>
-      <div className='w-full m-8'>
-        <span className="text-blue-600 font-bold bg-blue-200 hover:text-white hover:bg-blue-600 py-3 px-4 rounded-lg">OUR SERVICES</span>
-        <h1 className='font-extrabold text-6xl font-serif my-7'>We Provide Services That Drive Results</h1>
+    <div className='flex flex-col justify-around items-center bg-gradient-to-r from-slate-100 to-blue-200 sm:flex-col md:flex-col lg:flex-row p-4'>
+      <div className='w-full m-8 sm:text-center md:text-center lg:text-left p-5'>
+        <span className="text-blue-600 font-bold bg-blue-200 hover:text-white hover:bg-blue-600 py-3 px-4 rounded-lg ">OUR SERVICES</span>
+        <h1 className='font-extrabold text-6xl font-serif my-7 sm:text-4xl md:text-5xl lg:text-6xl'>We Provide Services That Drive Results</h1>
         <p className='text-lg' >We offer a wide range of digital services to help businesses grow, innovate, and succeed in the digital world.</p>
         <button className='bg-blue-600 text-white hover:bg-blue-200 hover:text-blue-600 font-bold text-lg my-4 py-3 px-4 rounded-lg'>Get Started  &rarr;</button>
       </div>
@@ -23,7 +23,7 @@ const Services = () => {
       </section>
       
 
-      <div className='grid grid-cols-3 gap-5'>
+      <div className='grid grid-cols-2 gap-5 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3'>
         <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
