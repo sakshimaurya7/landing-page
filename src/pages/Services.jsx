@@ -17,11 +17,14 @@ const Services = () => {
     </div>
 
     <div className='m-5'> 
-      <b className='bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white py-3 px-4 rounded-lg mx-auto'>WHAT WE DO</b>
-      <h1 className='font-bold text-5xl text-center my-4'>Our Services</h1>
+      <section className='text-center'>
+        <b className='bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white py-3 px-4 rounded-lg mx-auto'>WHAT WE DO</b>
+        <h1 className='font-bold text-5xl my-4'>Our Services</h1>
+      </section>
+      
 
       <div className='grid grid-cols-3 gap-5'>
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
@@ -32,7 +35,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
@@ -43,7 +46,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
@@ -54,7 +57,7 @@ const Services = () => {
           </div>
         </section> 
 
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
@@ -65,7 +68,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
@@ -76,15 +79,51 @@ const Services = () => {
           </div>
         </section>
 
-        <section className='flex justify-around shadow-md shadow-slate-900 rounded-lg'>
+        <section className='flex justify-around shadow-md shadow-slate-500 rounded-lg p-5'>
           <span>
             <img src="" alt="" />
           </span>
           <div>
-            <h2 className='font-bold text-2xl '>SEO Optimization</h2>
+            <h2 className='font-bold text-2xl'>SEO Optimization</h2>
             <p className='text-slate-800 text-lg my-2'>We improve your website's visibility on search engines and drive organic traffic.</p>
             <p className='text-blue-600 mt-2 font-bold text-lg'>Learn More &rarr;</p>
           </div>
+        </section>
+
+      </div>
+    </div>
+
+    <hr className=' ' />
+
+    <div>
+      <section className='text-center m-6'>
+        <b className='bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white py-3 px-4 rounded-lg mx-auto'>WHY CHOOSE US</b>
+        <h1 className='font-bold text-4xl my-4'>Why Work With Us ?</h1>
+      </section>
+
+      <div className='flex justify-around m-6'>
+        <section className='shadow-lg shadow-slate-400 p-5'>
+          <img src='' alt='' />
+          <h3>Experienced Team</h3>
+          <p>Our team of experts delivers high-quality solutions.</p>
+        </section>
+
+        <section className='shadow-lg shadow-slate-400 p-5'>
+          <img src='' alt='' />
+          <h3>Quality Work</h3>
+          <p>We are committed to delivering the best.</p>
+        </section>
+ 
+        <section className='shadow-lg shadow-slate-400 p-5'>
+          <img src='' alt='' />
+          <h3>On-Time Delivery</h3>
+          <p>We respect deadlines and deliver on time.</p>
+        </section>
+
+        <section className='shadow-lg shadow-slate-400 p-5'>
+          <img src='' alt='' />
+          <h3>24/7 Support</h3>
+          <p>We are here to help you anytime, anywhere.</p>
         </section>
 
       </div>
