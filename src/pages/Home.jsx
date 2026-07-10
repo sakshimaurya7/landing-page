@@ -1,6 +1,6 @@
 function Home(){
     return(
-         <div className="bg-gradient-to-r from-white to-blue-200 min-h-screen flex flex-col after:justify-around align-middle sm:flex-col md:flex-col">
+         <div className="bg-gradient-to-r from-white to-blue-200 min-h-screen flex flex-col justify-around align-middle sm:flex-col md:flex-col lg:flex-row">
             
             <div className="p-8 my-auto mx-auto">
                 <button className="text-blue-600 font-semibold bg-blue-100 p-3 rounded-lg hover:bg-blue-600 hover:text-white hover:font-bold ">WE BUILD DIGITAL EXPERIENCES</button>
@@ -11,7 +11,7 @@ function Home(){
                 <button className="shadow-md shadow-black font-semibold px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white ">Learn More &rarr;</button>
             </div>
         
-            <div className="my-auto mr-20 w-full h-full shadow-2xl sm:flex-col ">
+            <div className="my-auto w-full h-full shadow-2xl sm:flex-col ">
                 <img src="./src/assets/heropic.png" className=" w-11/12 mx-auto rounded-lg border-blue-600 border-2 p-4 my-5"/>
             </div>
 
