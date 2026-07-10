@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+import { FaFacebookF , FaInstagram , FaTwitter , FaLinkedinIn } from "react-icons/fa"
+
 function Footer(){
     return(
         <>
@@ -38,6 +40,13 @@ function Footer(){
 
                 <section>
                     <h2 className="font-bold text-lg">Follow Us</h2>
+                    <div className="flex justify-between gap-5 my-4">
+                        <a href="#" className="hover:text-blue-500 transition-colors"><FaFacebookF size={20} /></a>
+                        <a href="#" className="hover:text-blue-400 transition-colors"><FaTwitter size={20} /></a>
+                        <a href="#" className="hover:text-blue-700 transition-colors"><FaLinkedinIn size={20} /></a>
+                        <a href="#" className="hover:text-pink-500 transition-colors"><FaInstagram size={20} /></a>
+                    </div>
+                    
                 </section>
             </div>
            <p className="text-center font-semibold mt-3">&copy; 2026 WebCraft. All rights reserved.</p>
