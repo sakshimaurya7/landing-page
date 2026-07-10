@@ -29,7 +29,7 @@ function About(){
             <div className="flex flex-col justify-around m-3 gap-5 sm:flex-col md:flex-col lg:flex-row">
                 <section className="shadow-md shadow-slate-800 p-3 rounded-lg">
                     <div className="flex justify-between">
-                        <img src="./src/assets/q1.jpg" alt="Quality" className="w-16 h-auto my-auto" />
+                        <img src="./src/assets/q1.jpg" alt="Quality" className="w-1/6 h-auto my-auto" />
                         <span>
                             <h2 className="text-2xl font-bold">Quality</h2>
                             <p>Uncompromising standards in every line of code and design.</p>
